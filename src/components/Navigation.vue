@@ -59,8 +59,10 @@
         border: 1px solid #F5EFEF
         text-align: left
         padding-left: 16px
+        &:focus
+            outline: none
         &:hover
-        outline: none
+            outline: none
     &-bases
         display: flex
         align-items: center
