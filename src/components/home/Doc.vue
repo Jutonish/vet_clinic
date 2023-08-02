@@ -31,7 +31,7 @@
             <div class="doc-block1">
                 <div class="doc-director">
                     <img src="../../assets/home/block9/unnamed.png" alt="">
-                    <p class="doc-text1">Петрова <br>Иван Иванович</p>
+                    <p class="doc-text1">Петров <br>Иван Иванович</p>
                     <p class="doc-text3">Директор</p>
                     <p class="doc-text4">Ветеринарной клиники</p>
                 </div>
@@ -79,6 +79,11 @@
     margin: 0 112px 64px 112px
     &-director
         margin-right: 20px
+        display: flex
+        text-align: center
+        flex-direction: column
+        justify-content: center
+        align-items: center
     &-img
         border-radius: 30px
     &-block1
@@ -89,6 +94,7 @@
         height: 365px
     &-blocks2
         display: flex
+        justify-content: space-between
         margin: 36px 0 36px 0
     &-text1
         color: #000
@@ -111,6 +117,7 @@
         display: flex
         justify-content: space-between
     &-block
+        text-align: center
         padding: 0px 45px 0 45px
         display: flex
         flex-direction: column
@@ -126,6 +133,8 @@
         font-family: Segoe UI
         font-size: 16px
         font-weight: 700
+        margin-top: 47px
+        margin-bottom: 9px
     &-text2
         color: #000
         font-family: Segoe UI

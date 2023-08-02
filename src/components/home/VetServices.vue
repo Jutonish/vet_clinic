@@ -133,6 +133,7 @@
         margin-left: 0
     &-block
         display: flex
+        justify-content: space-between
         margin-top: 8px
         svg
             width: 50px

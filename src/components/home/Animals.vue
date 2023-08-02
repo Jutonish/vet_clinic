@@ -35,10 +35,12 @@
     
 .animals
     margin: 0 112px 64px 112px
-    display: grid
-    grid-template-columns: repeat(6, 0fr)
+    display: flex
     &-pets
         margin-right: 32px
+        display: flex
+        flex-direction: column
+        justify-content: center
         &:nth-child(6)
             margin-right: 0
         img
@@ -47,4 +49,6 @@
         color: #000
         font-family: Segoe UI
         font-size: 16px
+        font-weight: 700
+        text-align: center
 </style>

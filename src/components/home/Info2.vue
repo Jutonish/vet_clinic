@@ -12,9 +12,7 @@
                 <span class="info-number">8 800 900 50 10</span>
             </div>
         </div>
-        <div class="info-img">
-            <img src="../../assets/home/block7/image-345.png" alt="">
-        </div>
+            <img class="info-img" src="../../assets/home/block7/mask-g.png" alt="">
     </div>
 </template>
 
@@ -33,11 +31,11 @@
     grid-template-columns: repeat(2, 1fr)
     margin-bottom: 100px
     &-img
-        img
-            margin-top: -91px
+        margin-top: -98px
+        justify-self: end
     &-descr
-        text-align-last: left
         justify-self: center
+        align-self: center
     &-telefon
         margin-top: 48px
     &-text

@@ -1,21 +1,26 @@
 <template>
     <div class="nav">
         <div class="nav-navigation">
-            <router-link to="/AboutCompany" class="nav-link"><span class="nav-text">О компании</span></router-link>
-            <a class="nav-link" href="/">
+            <router-link to="/" class="nav-link">
+                <span class="nav-text">Главная</span>
+            </router-link>
+            <router-link to="/AboutCompany" class="nav-link">
+                <span class="nav-text">О компании</span>
+            </router-link>
+            <router-link to="/Services" class="nav-link">
                 <span class="nav-text">Услуги</span>
                 <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 6L13 1" stroke="black"/>
                 </svg>
-            </a>
+            </router-link>
             <router-link to="/Doctors" class="nav-link">
                 <span class="nav-text">Врачи</span>
                 <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 6L13 1" stroke="black"/>
                 </svg>
             </router-link>
-            <router-link to="/News" class="nav-link" href="/"><span class="nav-text">Блог</span></router-link>
-            <router-link to="/Contact" class="nav-link" href="/"><span class="nav-text">Контакты</span></router-link>
+            <router-link to="/News" class="nav-link"><span class="nav-text">Блог</span></router-link>
+            <router-link to="/Contact" class="nav-link"><span class="nav-text">Контакты</span></router-link>
         </div>
         <div class="nav-search">
             <input class="nav-sear" type="text" placeholder="Поиск">
@@ -39,11 +44,13 @@
 .nav
     display: flex
     margin: 0 184px 71px 216px
+    justify-content: space-between
     &-navigation
         display: flex
+        align-items: center
     &-link
         text-decoration: none
-        margin-right: 38px
+        margin-right: 28px
         &:hover
             text-decoration: underline
     &-text
@@ -52,6 +59,9 @@
         font-size: 16px
         font-weight: 400
         margin-right: 8px
+        &:active
+            color: #f00
+
     &-sear
         width: 240px
         height: 40px
@@ -67,7 +77,6 @@
         display: flex
         align-items: center
         padding: 9px 16px
-        margin: 0 16px 0 0
         border-radius: 31px
         background: #FDE2C8
         height: 40px

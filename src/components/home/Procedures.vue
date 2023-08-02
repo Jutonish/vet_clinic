@@ -6,7 +6,7 @@
                 Регулярные прививки защищают<br>
                 питомцев от опасных инфекционных<br>
                 болезней</span>
-            <img class="procedures-img" src="../../assets/home/block6/image-338.png" alt="">
+            <img class="procedures-img" src="../../assets/home/block6/image-338.png " alt="">
         </div>
         <div class="procedures-block">
             <div class="procedures-block2">
@@ -62,10 +62,9 @@
     display: grid
     grid-template-columns: repeat(3, 1fr)
     grid-gap: 20px
-    text-align-last: left
     &-img
-        position: absolute
-        margin-top: -20px
+        width: 226px
+        align-self: end
     &-block
         width: 100%
     &-block1
@@ -73,11 +72,12 @@
         background: #FFF0D6
         height: 467px
         width: 100%
+        display: flex
+        flex-direction: column
     &-block2
         border-radius: 40px
         background: #FFF0D6
         height: 220px
-
     &-block3
         margin-top: 20px
         border-radius: 40px
@@ -90,20 +90,19 @@
         width: 100%
         margin-top: 0
     &-block5
-        margin-top: 0
         border-radius: 40px
         background: #FFF0D6
         grid-column-start: 1
         grid-column-end: 3
-        align-self: start
+        display: grid
+        grid-template-columns: 62% 38%
         height: 226px
-        display: flex
         width: 100%
     &-img2
-        margin-top: -60px
-        margin-left: 100px
+        margin-top: -28px
+        margin-left: 180px
     &-img3
-        margin-top: -30px
+        
     &-block6
         height: 329px
         border-radius: 40px

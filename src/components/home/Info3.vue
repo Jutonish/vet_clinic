@@ -1,8 +1,6 @@
 <template>
     <div class="info">
-        <div class="info-img">
-            <img src="../../assets/home/block11/mask.png" alt="">
-        </div>
+            <img class="info-img" src="../../assets/home/block11/mask.png" alt="">
         <div class="info-descr">
             <span class="info-text">
                 Если у вашего любимца ухудшилось<br>
@@ -32,12 +30,10 @@
     display: grid
     grid-template-columns: repeat(2, 1fr)
     &-img
-        img
-            border-radius: 30px
-            margin-left: -115px
-            margin-top: -8px
+        margin-top: -8px
+        border-radius: 30px
     &-descr
-        text-align-last: left
+        align-self: center
     &-telefon
         margin-top: 48px
     &-text

@@ -91,6 +91,7 @@
     margin: 0 112px 100px 112px
     &-content
         display: flex
+        justify-content: space-between
         margin-top: 76px
     &-text
         color: #000
@@ -107,14 +108,14 @@
         color: #000
         font-family: Segoe UI
         font-size: 20px
-        margin-left: 0
-        text-align: left
+        margin-left: 14px
     &-block1
         border-radius: 40px
         background: #FDE2C7
         height: 74px
         display: flex
         text-align: left
+        align-items: center
         width: 382px
         margin-bottom: 16px
     &-check

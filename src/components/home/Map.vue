@@ -51,4 +51,6 @@
         text-align: left
         svg
             padding-right: 16px
+            height: 24px
+            width: 24px
 </style>

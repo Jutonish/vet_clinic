@@ -28,14 +28,15 @@
     background: #FFEDC9
     height: 408px
     display: grid
-    grid-template-columns: 50% 50%
+    grid-template-columns: 60% 40%
     margin: 0 112px  64px  112px
     &-description
+        align-self: center
+        justify-self: center
     &-title
         font-family: Segoe UI
         font-size: 48px
         font-weight: 700
-        text-align-last: left
         margin-bottom: 50px
         &__color
             color: #FF6E42
@@ -44,8 +45,8 @@
             font-weight: 700
     &-number
         display: grid
-        grid-template-columns: 40% 65%
-        width: 312px
+        grid-template-columns: 45% 55%
+        width: 320px
         border-radius: 40px
         background: #FFF
         padding: 5px
@@ -55,11 +56,13 @@
             border: 0
             font-family: Segoe UI
             font-size: 16px
+            justify-self: end
             &:focus
                 outline: none
             &:hover
                 outline: none
         &__btn
+            margin: 0 auto
             color: #000
             font-family: Segoe UI
             font-size: 15px
