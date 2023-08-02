@@ -1,7 +1,7 @@
 <template>
     <div class="nav">
         <div class="nav-navigation">
-            <router-link to="/" class="nav-link">
+            <router-link to="/vet_clinic" class="nav-link">
                 <span class="nav-text">Главная</span>
             </router-link>
             <router-link to="/AboutCompany" class="nav-link">

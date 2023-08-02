@@ -10,7 +10,7 @@ const router = createRouter ({
   history: createWebHistory(),
   routes:[
       {
-          path: '/',
+          path: '/vet_clinic',
           name: 'HomeView',
           component: HomeView
       },
