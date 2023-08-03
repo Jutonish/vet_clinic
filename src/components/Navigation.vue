@@ -38,8 +38,11 @@
 
 <script setup>
 
-</script>
 
+
+
+</script>
+123123
 <style lang="sass" scoped>
 .nav
     display: flex
